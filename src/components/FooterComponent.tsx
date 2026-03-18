@@ -1,0 +1,1 @@
+import React from 'react';const FooterComponent = () => {  return <p>&copy; 2024</p>;};export default FooterComponent;
