@@ -1,0 +1,1 @@
+interface Config {  apiUrl: string;}const config: Config = {  apiUrl: 'https://api.example.com'};export { config };
