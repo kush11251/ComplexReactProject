@@ -1,0 +1,1 @@
+import { User } from '../models/User';class UserAdapter {  static adapt(user: any): User {    return {      id: user.id,      name: user.name,      email: user.email    };  }}export { UserAdapter };
