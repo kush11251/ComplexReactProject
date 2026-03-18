@@ -1,0 +1,1 @@
+import React from 'react';import HeaderComponent from './components/HeaderComponent';import FooterComponent from './components/FooterComponent';const App = () => {  return (    <div>      <HeaderComponent />      <FooterComponent />    </div>  );};export default App;
