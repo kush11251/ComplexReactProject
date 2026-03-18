@@ -1,0 +1,1 @@
+import axios from 'axios';class HttpClient {  private axiosInstance;  constructor() {    this.axiosInstance = axios.create();  }  get(url: string) {    return this.axiosInstance.get(url);  }}export { HttpClient };
