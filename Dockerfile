@@ -1,0 +1,1 @@
+FROM node:18WORKDIR /appCOPY package*.json ./RUN npm installCOPY . .RUN npm run buildEXPOSE 3000CMD ["node", "server.js"]
