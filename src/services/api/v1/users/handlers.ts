@@ -1,0 +1,1 @@
+import { HttpClient } from '../utils/HttpClient';const httpClient = new HttpClient();const getUsers = async () => {  const response = await httpClient.get('https://api.example.com/users');  return response.data;};export { getUsers };
